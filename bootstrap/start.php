@@ -29,7 +29,7 @@ $app->redirectIfTrailingSlash();
 $env = $app->detectEnvironment(array(
 
 	'local' => array('localhost'),
-  'midtech' => array('midtech-sales.com', 'www.midtech-sales.com', 'localhost'),
+  'midtech' => array('midtech-sales.com', 'www.midtech-sales.com', 'beta.midtech-sales.com'),
 
 ));
 
