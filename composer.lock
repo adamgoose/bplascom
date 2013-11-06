@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "68a57635055352cca64367cc78bede25",
+    "hash": "671e2aa3401aa255fe4a4ea1882eeb4c",
     "packages": [
         {
             "name": "adamgoose/prismic-io",
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/adamgoose/prismic-io.git",
-                "reference": "bf270d54347f845de2b1c0699924ab102e58049f"
+                "url": "https://github.com/adamgoose/prismoquent.git",
+                "reference": "1e7c55e6a4d3de517f793c91520e6878c826dffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adamgoose/prismic-io/zipball/bf270d54347f845de2b1c0699924ab102e58049f",
-                "reference": "bf270d54347f845de2b1c0699924ab102e58049f",
+                "url": "https://api.github.com/repos/adamgoose/prismoquent/zipball/1e7c55e6a4d3de517f793c91520e6878c826dffd",
+                "reference": "1e7c55e6a4d3de517f793c91520e6878c826dffd",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "laravel",
                 "prismic-io"
             ],
-            "time": "2013-10-25 04:13:58"
+            "time": "2013-11-03 17:06:38"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -626,12 +626,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "dce714875ea98bac87f515d3db25d7d41356502b"
+                "reference": "a280594ffbb1b563a0f042182221f39e7de9efa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dce714875ea98bac87f515d3db25d7d41356502b",
-                "reference": "dce714875ea98bac87f515d3db25d7d41356502b",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a280594ffbb1b563a0f042182221f39e7de9efa3",
+                "reference": "a280594ffbb1b563a0f042182221f39e7de9efa3",
                 "shasum": ""
             },
             "require": {
@@ -710,7 +710,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2013-10-30 20:42:33"
+            "time": "2013-11-02 21:40:25"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -805,12 +805,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4fb411ec9ac803073065a5c6e56c43f9656ed2e8"
+                "reference": "5076824d4c0d4299522010ddb0bf03e7c96278ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4fb411ec9ac803073065a5c6e56c43f9656ed2e8",
-                "reference": "4fb411ec9ac803073065a5c6e56c43f9656ed2e8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5076824d4c0d4299522010ddb0bf03e7c96278ec",
+                "reference": "5076824d4c0d4299522010ddb0bf03e7c96278ec",
                 "shasum": ""
             },
             "require": {
@@ -910,7 +910,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-10-30 15:52:33"
+            "time": "2013-11-05 01:52:53"
         },
         {
             "name": "monolog/monolog",
@@ -918,12 +918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "0f3c054dff866aa687ab07572b731fb2ba32e703"
+                "reference": "a5010756d905264ea2b3f7f27c7df22fb9a3bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/0f3c054dff866aa687ab07572b731fb2ba32e703",
-                "reference": "0f3c054dff866aa687ab07572b731fb2ba32e703",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5010756d905264ea2b3f7f27c7df22fb9a3bd8e",
+                "reference": "a5010756d905264ea2b3f7f27c7df22fb9a3bd8e",
                 "shasum": ""
             },
             "require": {
@@ -973,7 +973,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-10-28 09:41:17"
+            "time": "2013-11-04 08:48:35"
         },
         {
             "name": "nesbot/carbon",
@@ -1065,16 +1065,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.13",
+            "version": "v1.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "92376c92e7edc281a2ca4e3384f3da9237415db6"
+                "reference": "af1d74b154bc62fab79b428877a9b5ab15f9418a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/92376c92e7edc281a2ca4e3384f3da9237415db6",
-                "reference": "92376c92e7edc281a2ca4e3384f3da9237415db6",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/af1d74b154bc62fab79b428877a9b5ab15f9418a",
+                "reference": "af1d74b154bc62fab79b428877a9b5ab15f9418a",
                 "shasum": ""
             },
             "require": {
@@ -1112,7 +1112,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2013-10-12 09:48:20"
+            "time": "2013-11-04 16:58:59"
         },
         {
             "name": "predis/predis",
@@ -1120,12 +1120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "4824af15631f6a80a939cdc58104d03e0aadd17a"
+                "reference": "ff004aeaaa5ca02a84e04cc99e0f88b242152b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/4824af15631f6a80a939cdc58104d03e0aadd17a",
-                "reference": "4824af15631f6a80a939cdc58104d03e0aadd17a",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/ff004aeaaa5ca02a84e04cc99e0f88b242152b7f",
+                "reference": "ff004aeaaa5ca02a84e04cc99e0f88b242152b7f",
                 "shasum": ""
             },
             "require": {
@@ -1159,7 +1159,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-08-31 08:51:10"
+            "time": "2013-11-06 15:40:36"
         },
         {
             "name": "prismic/php-sdk",
@@ -1167,12 +1167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prismicio/php-kit.git",
-                "reference": "fd5374c16139d4de8eadd1f3ce4b0e475137c6f0"
+                "reference": "82f01a7c6411f5064de4feb0ebc6b6a973ae0a14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prismicio/php-kit/zipball/fd5374c16139d4de8eadd1f3ce4b0e475137c6f0",
-                "reference": "fd5374c16139d4de8eadd1f3ce4b0e475137c6f0",
+                "url": "https://api.github.com/repos/prismicio/php-kit/zipball/82f01a7c6411f5064de4feb0ebc6b6a973ae0a14",
+                "reference": "82f01a7c6411f5064de4feb0ebc6b6a973ae0a14",
                 "shasum": ""
             },
             "require": {
@@ -1187,7 +1187,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.2-dev"
+                    "dev-master": "1.0.3-dev"
                 }
             },
             "autoload": {
@@ -1200,7 +1200,7 @@
                 "Apache 2 license"
             ],
             "description": "PHP development kit for prismic.io",
-            "time": "2013-10-30 17:11:34"
+            "time": "2013-11-04 22:24:41"
         },
         {
             "name": "psr/log",
@@ -1712,12 +1712,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307"
+                "reference": "796619f49371629db8f5ef5ce82f2f52e4fdfd9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/1bee3412d9ff603a9ed1cce305c0becbd735c307",
-                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/796619f49371629db8f5ef5ce82f2f52e4fdfd9d",
+                "reference": "796619f49371629db8f5ef5ce82f2f52e4fdfd9d",
                 "shasum": ""
             },
             "require": {
@@ -1753,7 +1753,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-30 08:28:22"
+            "time": "2013-11-04 06:09:51"
         },
         {
             "name": "symfony/http-kernel",

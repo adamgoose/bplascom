@@ -54,7 +54,7 @@ Route::group(['before' => 'cache.get', 'after' => 'cache.put'], function()
   {
     $page = Page::findSlug($slug);
 
-    if(!($page instanceof \Prismic\Document))
+    if(!($page instanceof Page))
       return App::abort(404);
 
     $categories = Category::get()->sortBy(function($category) {
