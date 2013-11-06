@@ -96,7 +96,7 @@
               <small>
                 {{$categories->filter(function($category) use ($equipment)
                   {
-                    if($category->getId() == $equipment->get('equipment.category')->getId())
+                    if($category->getSlug() == $equipment->get('equipment.category')->getSlug())
                       return true; 
                   })->first()->getText('category.title')}}
               </small>

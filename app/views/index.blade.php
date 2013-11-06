@@ -1,5 +1,3 @@
-@extends('layouts.master')
-
 @section('content')			
 		<div class="row">
 			<div class="span12">
@@ -7,7 +5,7 @@
 					<!-- Carousel items -->
 					<div class="carousel-inner">
 					@foreach($slides as $slide)
-						<div class="active item">
+						<div class="item">
 							<img src="{{$slide->get('slide.image')->getView('slide')->getUrl()}}" alt="">
 						</div>
 					@endforeach
@@ -39,4 +37,13 @@
 			</div>
 		@endforeach
 		</div><!-- /.row -->
+@stop
+
+@section('scripts')
+	<script>
+	$(function()
+	{
+		$("#home-carousel .carousel-inner .item:first").addClass('active');
+	});
+	</script>
 @stop

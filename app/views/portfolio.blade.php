@@ -1,5 +1,3 @@
-@extends('layouts.master')
-
 @section('content')
 		<div class="row">
 			<div class="span12">
@@ -20,7 +18,7 @@
 							{{$category->getText('category.title')}}
 							<span class="badge" style="margin-right: 0px;">
 								{{$inventory->filter(function($equipment) use ($category) {
-									if($equipment->get('equipment.category')->getId() == $category->getId()) return true;
+									if($equipment->get('equipment.category')->getSlug() == $category->getSlug()) return true;
 								})->count()}}
 							</span>
 						</a>

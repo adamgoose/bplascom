@@ -1,5 +1,3 @@
-@extends('layouts.master')
-
 @section('content')
 		<div class="row">
 			<div class="span12">
@@ -18,7 +16,7 @@
 				@foreach($categories as $category)
 					<li>
 						<a href="/inventory/{{$category->getSlug()}}">{{$category->getText('category.title')}}</a> ({{$inventory->filter(function($equipment) use ($category) {
-								if($equipment->get('equipment.category')->getId() == $category->getId()) return true;
+								if($equipment->get('equipment.category')->getSlug() == $category->getSlug()) return true;
 							})->count()}})
 					</li>
 				@endforeach

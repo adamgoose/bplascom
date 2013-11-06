@@ -1,5 +1,17 @@
 <?php
 
+App::bind('Adamgoose\Repositories\ContentRepositoryInterface', function($app)
+{
+  switch($app->environment()) {
+    case 'midtech':
+      return new Adamgoose\Repositories\MidtechContentRepository;
+    break;
+    default:
+      return new Adamgoose\Repositories\BplascomContentRepository;
+    break;
+  }
+});
+
 /*
 |--------------------------------------------------------------------------
 | Register The Laravel Class Loader
