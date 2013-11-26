@@ -9,11 +9,11 @@ Route::group(['before' => 'cache.get', 'after' => 'cache.put'], function()
 
   Route::get('contact', 'PageController@getContact');
 
-  Route::post('contact', 'PageController@postContact');
-
   Route::get('{slug}', 'PageController@getPage');
 
 });
+
+Route::post('contact', 'PageController@postContact');
 
 Route::post('search', 'PageController@postSearch');
 

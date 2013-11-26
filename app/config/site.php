@@ -14,7 +14,7 @@ return [
     'leader' => '',
     'map' => '/assets/map.png',
     'emails' => [
-      'Ben Cleveland' => 'sales@bplasticsolutions.com',
+      'Ben Cleveland' => 'ben@bplasticsolutions.com',
     ],
     'address' => '4209 Alabama Ave S
                   St. Louis Park, MN 55416
