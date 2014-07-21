@@ -21,14 +21,15 @@ return [
 <td><strong>Ben Cleveland</strong><br>Used Equipment Representative<br><a href="mailto:ben.cleveland@midtech-sales.com">Ben@midtech-sales.com</a></td>
 </tr>
 <tr>
-<td><strong>Kate Williams</strong><br>Office Manager<br><a href="mailto:kate.williams@midtech-sales.com">Kate@midtech-sales.com</a></td>
+<td><strong>Liz Meyer</strong><br>Office Manager<br><a href="mailto:liz@midtech-sales.com">Liz@midtech-sales.com</a></td>
 <td>&nbsp;</td>
 </tr>
 </tbody>
 </table>',
     'map' => '/assets/midtechMap.png',
-    'emails' => [
-      'Spencer Engebretson' => 'spencer@midtech-sales.com',
+    'email' => [
+      'name' => 'Spencer Engebretson',
+      'email' => 'spencer@midtech-sales.com',
     ],
     'address' => '16 Long Lake Road
                   Mahtomedi, MN 55115

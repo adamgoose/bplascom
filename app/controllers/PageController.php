@@ -34,16 +34,15 @@ class PageController extends BaseController {
   public function postContact()
   {
     $input = Input::all();
-    $emails = Config::get('site.contact.emails');
+    $recipient = Config::get('site.contact.email');
     $siteName = Config::get('site.name');
 
     try {
-      Mail::send('emails.contact', $input, function($mail) use ($input, $emails, $siteName)
+      Mail::send('emails.contact', $input, function($mail) use ($input, $recipient, $siteName)
       {
         $mail->from($input['email'], $input['name']);
 
-        foreach($emails as $name => $email)
-          $mail->to($email, $name);
+        $mail->to($recipient['email'], $recipient['name']);
 
         if(array_key_exists('cc', $input))
           $mail->to($input['email'], $input['name']);
